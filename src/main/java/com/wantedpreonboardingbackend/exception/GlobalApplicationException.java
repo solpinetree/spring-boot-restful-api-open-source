@@ -9,9 +9,4 @@ public class GlobalApplicationException extends RuntimeException {
 
     private ErrorCode errorCode;
     private String message;
-
-    @Override
-    public String getMessage() {
-        return String.format("%s, %s", errorCode, message);
-    }
 }
