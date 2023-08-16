@@ -1,0 +1,20 @@
+jwt:
+  secret-key: ${JWT_SECRET_KEY}
+  # 30d days
+  token.expired-time-ms: 2592000000
+
+spring:
+  jpa:
+    hibernate.ddl-auto: update
+    properties:
+      naming.physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+      hibernate:
+        format_sql: true
+        default_batch_fetch_size: 20
+        dialect: org.hibernate.dialect.MySQLDialect
+        jdbc.time_zone: UTC
+    defer-datasource-initialization: true
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
