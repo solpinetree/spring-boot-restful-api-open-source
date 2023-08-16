@@ -64,7 +64,7 @@
 ### 배포된 API 문서
 > http://64.176.228.244:8080/swagger-ui/index.html
 
-[Vultr](Vultr.com) 에서 spring boot와 mysql 을 각각 도커 컨테이너로 배포했습니다. 
+[Vultr](www.vultr.com) 에서 spring boot와 mysql 을 각각 도커 컨테이너로 배포했습니다. 
 
 &nbsp;
 
