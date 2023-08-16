@@ -25,6 +25,9 @@
       <a href="#데이터베이스-테이블-구조">데이터베이스 테이블 구조</a>
     </li>
     <li>
+      <a href="#데모-영상">데모 영상</a>
+    </li>
+    <li>
       <a href="#구현-방법">구현 방법</a>
     </li>
      <li>
@@ -82,6 +85,37 @@
 ![img.png](img.png)
 
 user, post를 1:n 관계로 매핑했습니다.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+## 데모 영상
+### 회원가입
+https://github.com/solpinetree/wanted-pre-onboarding-backend/assets/83967710/8e1a8594-f218-49f3-b559-2af2584afa7c
+
+### 로그인
+https://github.com/solpinetree/wanted-pre-onboarding-backend/assets/83967710/9f712f5a-76bd-4ea4-9c57-75a7e332e2a4
+
+### 게시글 작성
+https://github.com/solpinetree/wanted-pre-onboarding-backend/assets/83967710/7a14ca49-b755-404b-83e3-e5255b061346
+
+### 게시글 목록 조회
+https://github.com/solpinetree/wanted-pre-onboarding-backend/assets/83967710/03af435d-0f91-41f1-91c5-959505fcab9d
+
+### 게시글 상세 조회
+https://github.com/solpinetree/wanted-pre-onboarding-backend/assets/83967710/11a36501-a099-4e9c-984b-50f7cbff4436
+
+### 게시글 수정
+https://github.com/solpinetree/wanted-pre-onboarding-backend/assets/83967710/b222a6ba-4f7b-4501-a8ab-2e089fe5e30e
+
+### 게시글 삭제
+https://github.com/solpinetree/wanted-pre-onboarding-backend/assets/83967710/c88e4885-4481-4a51-bd0a-6678737f3983
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
