@@ -6,6 +6,7 @@ import com.wantedpreonboardingbackend.dto.response.PostResponse;
 import com.wantedpreonboardingbackend.service.PostService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.springdoc.core.annotations.ParameterObject;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
@@ -29,7 +30,7 @@ public class PostController {
 
     @GetMapping
     public Response<Page<PostResponse>> list(
-            @PageableDefault(sort = "registeredAt", direction = Sort.Direction.DESC) Pageable pageable
+            @ParameterObject @PageableDefault(sort = "registeredAt", direction = Sort.Direction.DESC) Pageable pageable
     ){
         return Response.success(postService.list(pageable));
     }

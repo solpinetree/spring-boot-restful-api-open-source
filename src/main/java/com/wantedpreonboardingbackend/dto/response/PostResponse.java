@@ -16,7 +16,7 @@ public record PostResponse(
         String title,
 
         @NotBlank
-        String Body,
+        String body,
 
         @NotNull
         UserResponse user,
