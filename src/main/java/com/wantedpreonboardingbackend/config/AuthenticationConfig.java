@@ -33,6 +33,12 @@ public class AuthenticationConfig {
                 .csrf().disable()
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(
+                                HttpMethod.GET,
+                                "/v3/api-docs/**",
+                                "/swagger-ui/**",
+                                "swagger-resources/**"
+                        ).permitAll()
+                        .requestMatchers(
                                 HttpMethod.POST,
                                 "/users/join",
                                 "/users/login"

@@ -20,7 +20,7 @@ services:
     build: .
     container_name: wanted-spring-boot
     environment:
-      DB_URL: jdbc:mysql://db:3306/wanted?useSSL=false
+      DB_URL: jdbc:mysql://db:3306/wanted?useSSL=false&allowPublicKeyRetrieval=true
       DB_USERNAME: sol
       DB_PASSWORD: sol123
       JWT_SECRET_KEY: aqq_wanted_preonBoarDing_wanted-application-2023.secret_key
