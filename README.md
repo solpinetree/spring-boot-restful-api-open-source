@@ -59,14 +59,19 @@
 - 도커 환경. 프로젝트 루트 경로에서
 > docker-compose up --build -d
 
+&nbsp;
+
 ### 배포된 API 문서
 > http://64.176.228.244:8080/swagger-ui/index.html
 
 [Vultr](Vultr.com) 에서 spring boot와 mysql 을 각각 도커 컨테이너로 배포했습니다. 
 
+&nbsp;
+
 ### 엔드포인트 호출 방법
 > http://64.176.228.244:8080/users/**
-> 
+
+
 > http://64.176.228.244:8080/posts/**
 
 이런 식으로 API 명세서에 따라 호출합니다.
