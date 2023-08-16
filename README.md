@@ -78,7 +78,7 @@
 &nbsp;
 &nbsp;
 
-## 데이터 베이스 테이블 구조
+## 데이터베이스 테이블 구조
 ![img.png](img.png)
 
 user, post를 1:n 관계로 매핑했습니다.
@@ -101,7 +101,7 @@ token의 유효기간은 30일로 정했습니다.
 jakarta.validation 어노테이션을 사용해서 필드마다 유효조건을 걸고 유효하지 못한 값이 들어왔을 때 던져지는 `MethodArgumentNotValidException` 을 `GlobalControllerAdvice` 가 받도록 구성했습니다. 
 
 ### 비밀번호 암호화
-`PasswordEncoder` 를 이용해서 비밀번호를 암호화 했습니다. 로그인 했을 때, 비밀번호 일치 여부는 `PasswordEncoder` 가 제공하는 matches 메소드를 사용했습니다.
+`PasswordEncoder` 를 이용해서 비밀번호를 암호화 했습니다. 로그인 했을 때의 비밀번호 일치 여부는 `PasswordEncoder` 가 제공하는 matches 메소드를 사용했습니다.
 
 ### Pagination
 `스프링 프레임워크` 가 제공하는 `Page`, `Pageable` 을 사용해서 구현했습니다. <br> 
