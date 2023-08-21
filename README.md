@@ -16,9 +16,6 @@
 <!-- TABLE OF CONTENTS -->
   <ol>
     <li>
-      <a href="#지원자-정보">지원자 정보</a>
-    </li>
-    <li>
       <a href="#애플리케이션-실행-방법">애플리케이션 실행 방법</a>
     </li>
     <li>
@@ -42,40 +39,16 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## 지원자 정보
-
-- 이름 : 이솔
-- 이메일 : sadlthf@gmail.com
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 
 ## 애플리케이션 실행 방법
 ### deploy
 - 도커 환경. 프로젝트 루트 경로에서
 > docker-compose up --build -d
 
-&nbsp;
-
-### 배포된 API 문서
-> http://64.176.228.244:8080/swagger-ui/index.html
-
-[Vultr](www.vultr.com) 에서 spring boot와 mysql 을 각각 도커 컨테이너로 배포했습니다. 
+실행해주세요.
+spring boot와 mysql 을 각각 도커 컨테이너로 실행되도록 구성했습니다.
 
 &nbsp;
-
-### 엔드포인트 호출 방법
-> http://64.176.228.244:8080/users/**
-
-
-> http://64.176.228.244:8080/posts/**
-
-이런 식으로 API 명세서에 따라 호출합니다.
-
 
 
 
