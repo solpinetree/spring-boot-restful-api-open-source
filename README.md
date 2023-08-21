@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">원티드 프리온보딩 백엔드 인턴십 - 선발 과제</h3>
+  <h3 align="center">게시판 관리 RESTful API 오픈 소스</h3>
 
   <p align="center">
 <!--     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a> -->
@@ -15,6 +15,9 @@
 
 <!-- TABLE OF CONTENTS -->
   <ol>
+    <li>
+      <a href="#기능">기능</a>
+    </li>
     <li>
       <a href="#애플리케이션-실행-방법">애플리케이션 실행 방법</a>
     </li>
@@ -39,6 +42,36 @@
 
 
 <!-- ABOUT THE PROJECT -->
+## 기능
+
+#### 1. 사용자 회원가입
+- 이메일과 비밀번호로 회원가입
+- 유효성 검사
+  - 이메일 조건: @ 포함
+  - 비밀번호 조건: 8자 이상
+  - 비밀번호는 암호화하여 저장
+
+#### 2. 사용자 로그인
+- 이메일과 비밀번호로 로그인 후, JWT 반환
+
+#### 3. 게시글 생성
+#### 4. 게시글 목록 조회
+- pagination 기능 구현
+
+#### 5. 특정 게시글 조회
+#### 6. 특정 게시글 수정
+#### 7. 특정 게시글 삭제
+#### 8. 단위 테스트 
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
 
 ## 애플리케이션 실행 방법
 ### deploy
